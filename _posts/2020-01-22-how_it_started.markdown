@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How it started"
-date:       2020-01-22 23:47:34 +0000
+date:       2020-01-22 18:47:35 -0500
 permalink:  how_it_started
 ---
 
