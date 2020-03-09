@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Brew Finder: Ruby CLI Project"
-date:       2020-03-09 20:19:42 +0000
+date:       2020-03-09 16:19:42 -0400
 permalink:  brew_finder_ruby_cli_project
 ---
 
@@ -13,7 +13,7 @@ I just hit a big milestone, the first final project for a language module in my 
 
 This was the first time I was asked to create something of my own from scratch—until this point, we had been coding in test-driven labs. It was daunting to think about building something with no further guidance than the basic project requirements, so I decided to K.I.S.S. (keep it simple, stupid). Instead of coming up with a program and then finding the website or API that would allow the program to do what I wanted, I decided to start with finding an API that I knew I could work with and would be relatively simple. I was looking for free, easy access without a key if possible, and simple output. I found the perfect API in the [Open Brewery DB](https://www.openbrewerydb.org/): it has a number of easy calls to get different arrays of results, and the results are always an array of hashes and no further nested data structure beyond the tag list array. Sweet.
 
-<a href="https://imgur.com/FRnP386"><img src="https://i.imgur.com/FRnP386.png" title="source: imgur.com" width=800 /></a>
+![](https://i.imgur.com/FRnP386.png?1)
 
 Now I had an API that would be easy to work with, I wanted to build the simplest possible CLI that would meet the requirements of the project. I wanted a program that would:
 1. Welcome user and ask for zip
@@ -27,7 +27,7 @@ Now I had an API that would be easy to work with, I wanted to build the simplest
 
 So now I was had an API and knew the basic functionality of my program... and I had no idea how to start! The blank page is scary, yo.
 
-<a href="https://imgur.com/81gyRqk"><img src="https://i.imgur.com/81gyRqk.png" title="source: imgur.com" width=800/></a>
+![](https://i.imgur.com/81gyRqk.png?1)
 
 I reviewed the project requirements once again, and found a super helpful resource on the information page: a video of Flatiron School founder, Avi Flombaum, talking through the process of building a CLI gem (called Daily Deal) from the ground up. I was able to follow Avi’s process and get my own project up and running relatively easily:
 1. **Imagine the gem:** what is the user experience?
@@ -40,6 +40,7 @@ I reviewed the project requirements once again, and found a super helpful resour
 8. **Red, Green, Refactor:** Get something working, then break it and make it better.
 
 I had already done step 1 by finding my API and sketching out the basic funtion of my CLI, so next was setting up the file structure. Bundler is fantastic for setting up the basic gem structure and providing and environment file, etc. I did a little renaming and restructuring to make it look the way I wanted, but Bundler did most of the heavy lifting. On to step 3, how the program is executed in the bin folder:
+
 ```
 #!/usr/bin/env ruby
 
@@ -109,11 +110,13 @@ The CLI was where the magic happens. I got it working with just the zip code rea
 Once I had the zip code search working (meaning I was able to start the program, run the search, look at results, and search another zip code without exiting the program), I was getting some momentum in my coding and wanted to add some extra bells and whistles. I added a search by state method to the API class:
 
 ```
+
   def self.breweries_state(state)
     breweries = HTTParty.get("https://api.openbrewerydb.org/breweries?per_page=50&by_state=#{state}")
     
     breweries.each {|brewery_hash| BrewFinder::Brewery.new(brewery_hash)}
   end
+	
 	```
 	
 The Brewery object didn't need any changes, it was still doing its job of instantiating objects, keeping track of the collection and clearing the collection between searches thanks to the CLI calling on the `.destroy_all` method.
@@ -121,6 +124,7 @@ The Brewery object didn't need any changes, it was still doing its job of instan
 I edited the CLI to take either zip or state searches, display results differently depending on the type of search (display the street for zip searches and the city for state searches), and be able to handle invalid input and loop users back to the search function. I changed the placement of `while` loops and phrasing of prompts to make sense in the various scenarios where they might appear and ran my program dozens and dozens of times trying every combination of valid and invalid entries I could think of. I was in the Red, Green, Refactor step and it was actually really fun! Finally I added some color using the colorize gem and ASCII art that I got from [this cool site](https://asciiart.website/index.php?art=food%20and%20drink/beer) and then edited the art to make it my own by changing the handle, letters on the mug, and added color. 
 
 ```
+
 class BrewFinder::CLI 
   
   def call 
@@ -169,16 +173,16 @@ class BrewFinder::CLI
   end
     
   def display_zip
-    puts ""
+    puts 
     BrewFinder::Brewery.all.each.with_index(1) {|b, i| puts "#{i})".colorize(:yellow) + " #{b.name} - #{b.street} - #{b.brewery_type}"}
-    puts ""
+    puts 
     puts "Which brewery would you like to learn about? Please enter a number.".colorize(:yellow)
   end
   
   def display_state
-    puts ""
+    puts 
     BrewFinder::Brewery.all.each.with_index(1) {|b, i| puts "#{i})".colorize(:yellow) + " #{b.name} - #{b.city} - #{b.brewery_type}"}
-    puts ""
+    puts 
     puts "Which brewery would you like to learn about? Please enter a number.".colorize(:yellow)
   end
   
@@ -208,6 +212,7 @@ class BrewFinder::CLI
   end
   
 end
+
 ```
 
 My beer mug in all its colorized glory:
