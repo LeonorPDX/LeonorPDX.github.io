@@ -116,8 +116,8 @@ Once I had the zip code search working (meaning I was able to start the program,
     
     breweries.each {|brewery_hash| BrewFinder::Brewery.new(brewery_hash)}
   end
-	
-	```
+
+```
 	
 The Brewery object didn't need any changes, it was still doing its job of instantiating objects, keeping track of the collection and clearing the collection between searches thanks to the CLI calling on the `.destroy_all` method.
 
@@ -173,16 +173,16 @@ class BrewFinder::CLI
   end
     
   def display_zip
-    puts 
+    puts ""
     BrewFinder::Brewery.all.each.with_index(1) {|b, i| puts "#{i})".colorize(:yellow) + " #{b.name} - #{b.street} - #{b.brewery_type}"}
-    puts 
+    puts ""
     puts "Which brewery would you like to learn about? Please enter a number.".colorize(:yellow)
   end
   
   def display_state
-    puts 
+    puts ""
     BrewFinder::Brewery.all.each.with_index(1) {|b, i| puts "#{i})".colorize(:yellow) + " #{b.name} - #{b.city} - #{b.brewery_type}"}
-    puts 
+    puts ""
     puts "Which brewery would you like to learn about? Please enter a number.".colorize(:yellow)
   end
   
