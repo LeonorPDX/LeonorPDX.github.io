@@ -8,6 +8,10 @@ permalink:  brew_finder_ruby_cli_project
 
 ### So what's up with Brew Finder?
 
+TL;DR? Check out the video of Brew Finder in action:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UK6L221Ed-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 I just hit a big milestone, the first final project for a language module in my Flatiron School journey! We were tasked with creating our own Ruby gem that would use a command line interface (CLI) to allow a user to interact with the program and access data (either from an API or scraped from a website).
 
 
@@ -21,7 +25,6 @@ Now I had an API that would be easy to work with, I wanted to build the simplest
 3. Ask user to pick a number from the list
 4. Display details about the selected list item
 5. Give the user the option to pick another from list, search again, or exit
-
 
 ### The Coding Process
 
@@ -39,7 +42,7 @@ I reviewed the project requirements once again, and found a super helpful resour
 7. **Discover objects:** Each object does one thing, each method has one function.
 8. **Red, Green, Refactor:** Get something working, then break it and make it better.
 
-I had already done step 1 by finding my API and sketching out the basic funtion of my CLI, so next was setting up the file structure. Bundler is fantastic for setting up the basic gem structure and providing and environment file, etc. I did a little renaming and restructuring to make it look the way I wanted, but Bundler did most of the heavy lifting. On to step 3, how the program is executed in the bin folder:
+I had already done step 1 by finding my API and sketching out the basic funtion of my CLI, so next was setting up the file structure. Bundler is fantastic for setting up the basic gem structure and providing the environment file, version, etc. I did a little renaming and restructuring to make it look the way I wanted, but Bundler did most of the heavy lifting. On to step 3, how the program is executed in the bin folder:
 
 ```
 #!/usr/bin/env ruby
@@ -50,7 +53,7 @@ require "env"
 BrewFinder::CLI.new.call
 ```
 
-I hadn't made the CLI class yet, or the call method, but I knew I would need to set Ruby as the environment, require the Bundler set up and my environment folder, and I wanted the program to run as soon as a new instance of the CLI class was instantiated. By instantiating the CLI and the call method, I was "forcing the run file to create the CLI."
+I hadn't made the CLI class yet, or the call method, but I knew I would need to set Ruby as the environment, require the Bundler set up and my environment folder, and I wanted the program to run as soon as a new instance of the CLI class was instantiated. By instantiating the CLI and the `.call` method, I was "forcing the run file to create the CLI."
 
 Next I was just creating basic objects and trying to get them to play nicely together. I made a CLI that put out simple messages and made a Brewery class and populated it with objects that were hard coded. Once I got the CLI working with the Brewery class, I was ready to use the API to create real Brewery objects. My Brewery and API objects were pretty simple and easy to get functioning properly. For the Brewery object, I gave it all the attributes from the Open Brewery DB results, used a hash and the `.send` method to assign the key-value pairs to the attributes, made a display details method, and methods to access all Brewery objects and clear all Brewery objects.
 
@@ -87,7 +90,7 @@ class BrewFinder::Brewery
 end
 ```
 
-For the API, I just needed to call for breweries by zip cope and use that returned array of hashes to instantiate new Brewery objects. The method takes a zip code as an argument and interpolates the zip code into the query to Open Brewery DB.
+For the API, I just needed to call for breweries by zip code and use that returned array of hashes to instantiate new Brewery objects. The method takes a zip code as an argument and interpolates the zip code into the query to Open Brewery DB.
 
 ```
 class BrewFinder::API
