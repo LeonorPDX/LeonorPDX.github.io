@@ -110,7 +110,6 @@ The CLI was where the magic happens. I got it working with just the zip code rea
 Once I had the zip code search working (meaning I was able to start the program, run the search, look at results, and search another zip code without exiting the program), I was getting some momentum in my coding and wanted to add some extra bells and whistles. I added a search by state method to the API class:
 
 ```
-
   def self.breweries_state(state)
     breweries = HTTParty.get("https://api.openbrewerydb.org/breweries?per_page=50&by_state=#{state}")
     
@@ -124,7 +123,6 @@ The Brewery object didn't need any changes, it was still doing its job of instan
 I edited the CLI to take either zip or state searches, display results differently depending on the type of search (display the street for zip searches and the city for state searches), and be able to handle invalid input and loop users back to the search function. I changed the placement of `while` loops and phrasing of prompts to make sense in the various scenarios where they might appear and ran my program dozens and dozens of times trying every combination of valid and invalid entries I could think of. I was in the Red, Green, Refactor step and it was actually really fun! Finally I added some color using the colorize gem and ASCII art that I got from [this cool site](https://asciiart.website/index.php?art=food%20and%20drink/beer) and then edited the art to make it my own by changing the handle, letters on the mug, and added color. 
 
 ```
-
 class BrewFinder::CLI 
   
   def call 
@@ -212,7 +210,6 @@ class BrewFinder::CLI
   end
   
 end
-
 ```
 
 My beer mug in all its colorized glory:
