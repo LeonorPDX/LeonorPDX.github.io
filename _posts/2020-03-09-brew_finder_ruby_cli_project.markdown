@@ -28,7 +28,7 @@ Now I had an API that would be easy to work with, I wanted to build the simplest
 
 ### The Coding Process
 
-So now I was had an API and knew the basic functionality of my program... and I had no idea how to start! The blank page is scary, yo.
+So now I had an API and knew the basic functionality of my program... and I had no idea how to start! The blank page is scary, yo.
 
 ![](https://i.imgur.com/81gyRqk.png?1)
 
