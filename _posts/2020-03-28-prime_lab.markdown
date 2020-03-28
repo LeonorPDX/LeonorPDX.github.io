@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Prime?() lab"
-date:       2020-03-28 20:29:42 +0000
+date:       2020-03-28 16:29:42 -0400
 permalink:  prime_lab
 ---
 
@@ -42,7 +42,7 @@ I then set another local variable to be equal to the range of numbers from 2 to 
 end
 ```
 
-Lastly, I iterate over the range and see the original number given as an argument for the method is divisible by any number in the range with a remainder of zero, and end the method. The `%` operator is known as modulus; in `x % y` returns the remainder of the x divided by y. You can learn more about Ruby arithmetic operators [here.](https://www.w3resource.com/ruby/ruby-arithmetic-operators.php)
+Lastly, I iterate over the range and check if the original number given as an argument for the method is divisible by any number in the range with a remainder of zero, and end the method. The `%` operator is known as modulus; in `x % y` it returns the remainder of x divided by y. You can learn more about Ruby arithmetic operators [here.](https://www.w3resource.com/ruby/ruby-arithmetic-operators.php)
 
 I used the `.none?` enumerable method because it has a true/false return value, and returns "true" if none of the enumerables has a true value in the iteration block. A number *is* a prime if none of the numbers in the range return a true value for the iteration block. At first I had `.any?` but quickly realized that was giving me the opposite of the true/false return value that I wanted.
 
