@@ -1,0 +1,55 @@
+---
+layout: post
+title:      "Prime?() lab"
+date:       2020-03-28 20:29:42 +0000
+permalink:  prime_lab
+---
+
+
+Here's a quick walk through of the `prime?()` lab, but I'm going to keep it brief—mainly because I am much more pleased with my solution to the OO Triangle lab. My solution to OO Triangle is novel (not the solution posted to GitHub) and I think it's quite elegant and simple. So a quick look at `prime?()` then on to the fun stuff with OO Triangle in my next blog!
+
+```
+def prime?(number)
+  return false if number <= 1
+  
+  root = Math.sqrt(number)
+  range = 2..root
+  
+  range.none? {|i| number % i == 0}
+end
+```
+
+The specs are really basic, just return true for prime and return false for numbers that are not prime. I followed the suggestions in the `README` file and did some quick online research about defining a prime number and the simplest algorithms for determining if a given number is a prime, and then I got to coding. 
+
+```
+def prime?(number)
+  return false if number <= 1
+```
+
+First, I define the method to take a number as an argument. A prime number is defined as "A whole number greater than 1 that can not be made by multiplying other whole numbers." So the first thing to check is that it is not 1, which is not considered a prime number but would return true for the algorithm I used, and also not zero or a negative number (none of which are prime numbers).
+
+```
+  root = Math.sqrt(number)
+  range = 2..root
+```
+
+Then I find the square root of the number and set it equal to a local variable, "root." Ruby has a built in module, Math, that lets you use some basic math functions like the `.sqrt` method I used here. You can read more about the Math module [here.](https://ruby-doc.org/core-2.6/Math.html)
+
+I then set another local variable to be equal to the range of numbers from 2 to the square root. I need this range because if a number is not divisible by any number between 2 and its square root with no remainder, then it will not be divisible by any number *greater* than its square root with no remainder. By only checking up to the square root, I reduce the amount of computations my program needs to iterate through. It might not seem like a big deal with smaller numbers, but with super large numbers, this can make a difference.
+
+```
+  range.none? {|i| number % i == 0}
+end
+```
+
+Lastly, I iterate over the range and see the original number given as an argument for the method is divisible by any number in the range with a remainder of zero, and end the method. The `%` operator is known as modulus; in `x % y` returns the remainder of the x divided by y. You can learn more about Ruby arithmetic operators [here.](https://www.w3resource.com/ruby/ruby-arithmetic-operators.php)
+
+I used the `.none?` enumerable method because it has a true/false return value, and returns "true" if none of the enumerables has a true value in the iteration block. A number *is* a prime if none of the numbers in the range return a true value for the iteration block. At first I had `.any?` but quickly realized that was giving me the opposite of the true/false return value that I wanted.
+
+And that's it, a quick run down on `prime?()`! Happy coding :)
+
+
+
+
+
+
