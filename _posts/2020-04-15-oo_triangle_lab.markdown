@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "OO Triangle Lab"
-date:       2020-04-15 23:39:43 +0000
+date:       2020-04-15 19:39:44 -0400
 permalink:  oo_triangle_lab
 ---
 
@@ -61,7 +61,7 @@ Here I am checking to see if:
 * Any of the sides in the array are equal to or less than zero, *OR*
 * The sum of the first and second sides in the array (which I knew to be the shortest, thanks to sorting the array in my initialize method) is equal to or less than the length of the third side. 
 
-If either of the above blocks have a truthy value, the `TriangleError` is raised. The rest of the `kind` method uses the unique length of the `@sides` array to determine if a triangle is equilateral, isosceles, or scalene:
+If either of the above elements in the block have a truthy value, the `TriangleError` is raised. The rest of the `kind` method uses the unique length of the `@sides` array to determine if a triangle is equilateral, isosceles, or scalene:
 
 ```
  def kind
