@@ -144,7 +144,7 @@ class Triangle
 end
 ```
 
-They've pulled the validation check as its own method, `validate_triangle`, that the `kind` method calls on. It has an array, `real_triangle` with three equations showing that the sum of two sides is greater than the third side; the sides are respresented by a, b, and c represent the actual measurments initialized in this instance of the Triangle class. It then iterates over the sides and shovels a `false` into the `real_triangle` array if any of the sides are less than or equal to zero. Finally, it raises the `TriangleError` if the `real_triangle` array includes any false values. This, to me, seems overly complicated and confusing to me, but it does work.
+They've pulled the validation check as its own method, `validate_triangle`, that the `kind` method calls on. It has an array, `real_triangle` with three equations showing that the sum of two sides is greater than the third side; the sides *a, b,* and *c* represent the actual measurments initialized in this instance of the Triangle class. It then iterates over the sides and shovels a `false` into the `real_triangle` array if any of the sides are less than or equal to zero. Finally, it raises the `TriangleError` if the `real_triangle` array includes any false values. This, to me, seems overly complicated and confusing to me, but it does work.
 
 The `kind` method compares the lengths of sides directly and uses `&&` ("and") and `||` ("or") to implement the logic of checking the triangle sides against one another. Like in the `validate_triangle` method, it compares the sides in all possible combinations one by one. In my solution, those comparisons happen "under the hood" using the `.uniq` method on my array of sides.
 
