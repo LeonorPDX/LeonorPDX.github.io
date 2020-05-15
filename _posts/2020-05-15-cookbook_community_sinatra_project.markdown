@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Cookbook Community: Sinatra Project"
-date:       2020-05-15 19:58:56 +0000
+date:       2020-05-15 15:58:57 -0400
 permalink:  cookbook_community_sinatra_project
 ---
 
