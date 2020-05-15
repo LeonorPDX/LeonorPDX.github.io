@@ -24,7 +24,7 @@ Finally, I made the site a little easier on the eyes and easier for the user to 
 
 To see the app in action, you can fork and clone the app from the [GitHub repository](https://github.com/LeonorPDX/sinatra-crud-cookbook-community) to your local environment and run shotgun to try it out, or you can check out this video walkthrough.
 
-## [EMBED VIDEO]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4tjBlS7e9Ug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Models
