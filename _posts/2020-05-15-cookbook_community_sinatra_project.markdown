@@ -106,6 +106,7 @@ The post routes for signing and logging in have flash messages for the user if t
     end
 ```
 
+
 #### Recipes Controller
 The recipes controller has the 7 basic CRUD routes related to recipes, plus one extra to show recipes by type:
 ```
@@ -115,6 +116,7 @@ The recipes controller has the 7 basic CRUD routes related to recipes, plus one 
         erb :"recipes/index"
     end
 ```
+
 
 #### Users Controller
 The users controller holds routes related to users' collections of recipes—the collection of recipes created by the user, and the user's Cookbook of saved recipes.
@@ -135,6 +137,7 @@ use RecipesController
 use UsersController
 run ApplicationController
 ```
+
 
 ### App in Action
 
