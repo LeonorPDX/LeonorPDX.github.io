@@ -12,7 +12,7 @@ permalink:  cookbook_community_sinatra_project
 
 I just finished my second portfolio project for Flatiron School's Online Software Engineering Program, and I finally have something I can show my mom that she recognizes as a real, honest-to-goodness website. Woohoo!
 
-The project requirements were to create a MVC (model, view, controller) web app with Sinatra and ActiveRecord that uses sessions to keep track of users as they log in and out, and each user has full CRUD (create, read, update, destroy) abilities with resources that belong to that user. Additionally, the app should follow RESTful route conventions and separation of concerns.
+The project requirements were to create a MVC (model, view, controller) web app with Sinatra and ActiveRecord that uses sessions to keep track of users as they log in and out, and each user has full CRUD (create, read, update, destroy) abilities with resources that belong to that user. Additionally, the app should follow [RESTful route](https://en.wikipedia.org/wiki/Representational_state_transfer) conventions and separation of concerns.
 
 I made a recipe sharing site where users can contribute recipes to a shared index of all recipes, update or delete their own recipes, and also create a collection of saved recipes in their own "Cookbook." Users can browse recipes by type, view recipes by author, and view other users' Cookbooks. 
 
