@@ -13,7 +13,7 @@ The end result of this code will look like this:
 
 My navigation bar is a horizontal bar with five buttons, and includes a color change when the cursor hovers over a selection.
 
-The basic HTML for the list is an unordered list of links wrapped in the `<nav>` tag. The `<nav>` element is useful for the CSS styling that will turn your unordered list into a navigation bar, but it also is important for user accessibility. User agents, like screen readers used by low-vision users, can use this element to filter content and make the website easier to navigate and remove extra "noise" by determining whether to omit the navigation-only content.
+The basic HTML for the list is an unordered list of links wrapped in the `<nav>` tag. The `<nav>` element is useful for the CSS styling that will turn your unordered list into a navigation bar, but it also is important for user accessibility. Assistive technology (like screen readers used by low-vision users) can use this element to filter content and make the website easier to navigate and remove extra "noise" by determining whether to omit the navigation-only content.
 
 Your HTML will look something like this:
 ```
