@@ -172,9 +172,9 @@ Styling with Bulma was a great learning experience for me, and I got much more c
 
 ### Closing Thoughts
 
-There are some extension features I'd like to add (such as user profile photos, check boxes to filter by multiple hike features instead of a drop down and filter by single feature), but overall I'm very happy with how this project turned out.
+There are some extension features I'd like to add (such as user profile photos, check boxes to filter by multiple hike features instead of a drop down and filter by single feature, etc.), but overall I'm very happy with how this project turned out.
 
-Like my other portfolio projects, I found it really easy to put in the hours while working on the Hikers App! I happily spent hours working on my code, researching new methods, and adding extension features. The end result of a project I can take pride in makes it all so worthwhile.
+Like my other portfolio projects, I found it really easy to put in the hours while working on the Hikers App! I happily spent hours working on my code, researching new methods, and adding extension features. The end result is a project I can take pride in, and that makes it all so worthwhile.
 
 If you want to take a look at the code, or clone it and try it on your own machine, check out [the Hikers App on GitHub](https://github.com/LeonorPDX/rails-hikers-app).
 
