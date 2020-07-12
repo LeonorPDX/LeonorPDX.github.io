@@ -49,7 +49,7 @@ The route overriding Devise's callback controller in config/routes.rb:
 devise_for :users, controllers: {registrations: "registrations", omniauth_callbacks: "callbacks"}
 ```
 
-Once I had the user registration and sessions working smoothly. I was ready to dive into the project. I started with just the Hike and Trailhead models: first I used `rails generate model` to create the models, migrations, controllers, and view directories. I then added associations and validations in the models. I wrote a little seed data and played around with it in `rails console` to make sure my associations were all working correctly.
+Once I had the user registration and sessions working smoothly. I was ready to dive into the project. I started with just the Hike and Trailhead models: first I used `rails generate resource` to create the models, migrations, controllers, and view directories, then I added associations and validations in the models. I wrote a little seed data and played around with it in `rails console` to make sure my associations were all working correctly.
 
 ```
 class Hike < ApplicationRecord
@@ -128,7 +128,7 @@ Partial to render errors:
 <% end %>
 ```
 
-And lastly I moved some methods I had written in the models that had to do with displaying data into helper modules, thus maintaining seperation of concerns.
+And lastly I moved some methods I had written in the models that had to do with displaying data into helper modules, thus maintaining separation of concerns.
 
 And then I was done, I met all the specs and everything worked! But... it was pretty ugly. Enter [Bulma](https://bulma.io/).
 
