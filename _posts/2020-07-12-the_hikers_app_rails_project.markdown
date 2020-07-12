@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Hikers App: Rails Project"
-date:       2020-07-12 17:40:00 +0000
+date:       2020-07-12 13:40:01 -0400
 permalink:  the_hikers_app_rails_project
 ---
 
@@ -135,8 +135,10 @@ Bulma is a free, open-source CSS framework that can quickly add some quality-loo
 Hero banner, nav bar, footer and columns:
 ![](https://i.imgur.com/9nzNLNl.png?1)
 
+
 The famous media object making my trip reports look legit:
 ![](https://i.imgur.com/ByHWKIr.png?1)
+
 
 Hike show page:
 ![](https://i.imgur.com/lVpcmQH.png?1)
@@ -162,15 +164,15 @@ It's a good lesson learned; Rails has so many helpers and it can make it quick a
 
 ### Successes
 
-By working on the user experience first, I was able to keep the big picture in mind as the code grew. By starting simple (user registraions and index/show) and allowing it to grow organically helped me keep the work manageable and the errors easily resolved (i.e., I knew everything was working correctly until I added this particular line of code, so the error must be associated with that code somehow).
+By working on the user experience first, I was able to keep the big picture in mind as the code grew. Starting simple (user registraions and index/show) and allowing it to grow organically helped me keep the work manageable and the errors easily resolved (i.e., I knew everything was working correctly until I added this particular line of code, so the error must be associated with that code somehow).
 
-Styling with Bulma was a great learning experience for me, and I got more comfortable with CSS and HTML through his project. The norms, patterns, and syntax are becoming more familiar and intuitive for me than when I first used them.
+Styling with Bulma was a great learning experience for me, and I got much more comfortable with CSS and HTML through his project. The norms, patterns, and syntax are becoming more familiar and intuitive for me than when I first started using them.
 
 ### Closing Thoughts
 
 There are some extension features I'd like to add (such as user profile photos, check boxes to filter by multiple hike features instead of a drop down and filter by single feature), but overall I'm very happy with how this project turned out.
 
-Like my other portfolio projects, I found it really easy to put in the hours while working on the Hikers App! I happily spent hours working on my code, researching new methods, and adding extension features. The end result of a project I can take pride in makes it all so worth while.
+Like my other portfolio projects, I found it really easy to put in the hours while working on the Hikers App! I happily spent hours working on my code, researching new methods, and adding extension features. The end result of a project I can take pride in makes it all so worthwhile.
 
 If you want to take a look at the code, or clone it and try it on your own machine, check out [the Hikers App on GitHub](https://github.com/LeonorPDX/rails-hikers-app).
 
