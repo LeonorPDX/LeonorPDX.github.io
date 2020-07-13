@@ -17,13 +17,14 @@ To see the app in action, see my video walkthrough:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PGFicjkNWi4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+
 ### My Process
 
 My first step was to outline my models and their associations, and to make sure my project would meet the minimum requirements for model associations.
 
 ![](https://i.imgur.com/hahCNeO.png?1)
 
-Once I had the models planned, I worked on user stories. I followed Atlassian's method of “persona + need + purpose” and wrote out what a first time visitor to the site would need and expect, what a regular user would need and experience on various pages, and the content that would be able to see on various views. I wrote about 20 user stories, and by the time I was done I felt like I had a really clear picture in my mind of how this app would look and work.
+Once I had the models planned, I worked on user stories. I followed Atlassian's method of “persona + need + purpose” and wrote out what a first time visitor to the site would need and expect, what a regular user would need and experience on various pages, and the content they would be able to see on various views. I wrote about 20 user stories and by the time I was done I felt like I had a really clear picture in my mind of how this app would look and work.
 
 My first actual code was to generate the new app with Rails, then get started on user sign up and sessions. I used [Devise](https://github.com/heartcombo/devise), a fantastic gem for setting up everything you need for managing users and sessions. In another blog post I'll go into detail of how to configure Devise with Rails, but suffice it to say for about 10 minutes of configuration work you get the user model, all the session-related views, controller actions, and routes... it's GREAT.
 
