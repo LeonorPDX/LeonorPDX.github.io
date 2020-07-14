@@ -1,11 +1,10 @@
 ---
 layout: post
-title:      "Devise, Omniauth & Rails"
-date:       2020-07-14 16:57:27 +0000
+title:      "Devise, Omniauth & Rails: User Authentication Made Easy"
+date:       2020-07-14 12:57:29 -0400
 permalink:  devise_omniauth_and_rails
 ---
 
-## User Authentication Made Easy
 
 In this blog post, I’m going to give a quick tutorial on how to configure a new Rails app with two gems, Devise and Omniauth, to quickly get all aspects of your user authentication process off the ground. In less than 30 minutes, you can have an app ready for users to sign up, log in, and use their third-party provider account (like Facebook) to create an account on your app.
 
