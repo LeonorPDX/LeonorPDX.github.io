@@ -19,7 +19,7 @@ From your terminal, use `rails new app_name`. Seriously that’s it, Rails is aw
 
 ### Add Devise
 
-According to the Devise gem REAME:
+According to the Devise gem README:
 > Devise is a flexible authentication solution for Rails based on Warden. It:
 > * Is Rack based;
 > * Is a complete MVC solution based on Rails engines;
@@ -66,7 +66,7 @@ Take a moment to look at everything Devise has done for you: check out the views
 
 ### Overriding Devise Registrations
 
-Next, we’re going to add a name field on our sign up form, update the params for the controller to accept the name input, and let Devise know we’re using our own controller in `config/routes.rb`. I also recommend validating the name attribute in the User model, but you do you with validations—I’m not getting into that in this blog post.
+Next, we’re going to add a name field on our sign up form, update the params for the controller to accept the name input, and let Devise know we’re using our own controller in `config/routes.rb`. I also recommend validating the name and email attributes in the User model, but you do you with validations—I’m not getting into that in this blog post.
 
 Open the registration form at `views/devise/registrations/new.html.erb`.
 
@@ -89,7 +89,7 @@ And finally, let Devise know to use our customized registrations controller in `
 
 ![](https://i.imgur.com/ajN8B7X.png?1)
 
-If you run `rake routes` again you’ll see your login/signup/logout paths are updated. Try `rails s` and navigate to localhost:3000/signup, create an account, and you should get redirected to your home page. And now we have a working user authentication process! Thanks, Devise!
+If you run `rake routes` again you’ll see your login/signup/logout paths are updated. Try `rails s` and navigate to `https://localhost:3000/signup`, create an account, and you should get redirected to your home page. And now we have a working user authentication process! Thanks, Devise!
 
 
 ### Third-Party Providers with Omniauth
