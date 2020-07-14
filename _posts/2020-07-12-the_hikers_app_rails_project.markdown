@@ -167,7 +167,7 @@ It's a good lesson learned; Rails has so many helpers and it can make it quick a
 
 ### Successes
 
-By working on the user experience first, I was able to keep the big picture in mind as the code grew. Starting simple (user registraions and index/show) and allowing it to grow organically helped me keep the work manageable and the errors easily resolved (i.e., I knew everything was working correctly until I added this particular line of code, so the error must be associated with that code somehow).
+By working on the user experience first, I was able to keep the big picture in mind as the code grew. Starting simple (user registrations and index/show) and allowing it to grow organically helped me keep the work manageable and the errors easily resolved (i.e., I knew everything was working correctly until I added this particular line of code, so the error must be associated with that code somehow).
 
 Styling with Bulma was a great learning experience for me, and I got much more comfortable with CSS and HTML through his project. The norms, patterns, and syntax are becoming more familiar and intuitive for me than when I first started using them.
 
