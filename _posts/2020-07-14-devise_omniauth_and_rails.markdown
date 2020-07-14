@@ -20,7 +20,6 @@ From your terminal, use `rails new app_name`. Seriously that’s it, Rails is aw
 ### Add Devise
 
 According to the Devise gem REAME:
-
 > Devise is a flexible authentication solution for Rails based on Warden. It:
 > * Is Rack based;
 > * Is a complete MVC solution based on Rails engines;
