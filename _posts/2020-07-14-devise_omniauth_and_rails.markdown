@@ -30,7 +30,7 @@ Basically it’s a really powerful gem, but it’s also modular so you can just 
 
 To get started, add `gem 'devise'` in your gemfile and run `bundle install` to get your gems and dependencies updated. Next, run `rails g devise:install`.
 
-After running the Devise install generator, you’ll see a number of instructions in your console. Don’t worry about setting default URLs for modules you aren’t using, like mailers, but the rest are good tips. We are going to be customizing the views so go ahead and generate the Devise views. Set a root URL in config/routes.rb so you can check everything is working—I added `root application#home`, added the application controller method, and in the view put the following code (using Devise’s helper method, `user_signed_in?`) so I could easily see if I was able to log in correctly when testing it out on the server:
+After running the Devise install generator, you’ll see a number of instructions in your console. Don’t worry about setting default URLs for modules you aren’t using, like mailers, but the rest are good tips. We are going to be customizing the views so go ahead and generate the Devise views. Set a root URL in `config/routes.rb` so you can check everything is working—I added `root application#home`, added the application controller method, and in the view put the following code (using Devise’s helper method, `user_signed_in?`) so I could easily see if I was able to log in correctly when testing it out on the server:
 
 ```
 <% if user_signed_in? %>
