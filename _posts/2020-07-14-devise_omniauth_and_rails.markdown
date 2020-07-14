@@ -49,7 +49,7 @@ And it is handy to throw their suggested snippet of code in your layout to displ
 
 Next, we’re going to create the User model though Devise. Devise doesn’t require you to call your authenticatable model “User,” you could call it Admin or whatever you want, but User is a standard choice. Run `rails g devise User`.
 
-Now, we could run the migration right away, then add columns and tweak our user model, but I’m going to be sneaky and just add in a `name` attribute on our User model before we migrate. Open the migration that Devise just created, you should see code like this:
+Now, we could run the migration right away, then add columns and tweak our User model, but I’m going to be sneaky and just add in a `name` attribute on our User model before we migrate. Open the migration that Devise just created, you will see code like this:
 
 ![](https://i.imgur.com/F5Qbsvu.png?1)
 
@@ -66,7 +66,7 @@ Take a moment to look at everything Devise has done for you: check out the views
 
 ### Overriding Devise Registrations
 
-Next, we’re going to add a name field on our sign up form, update the params for the controller to accept the name input, and let Devise know we’re using our own controller in `config/routes.rb`. I also recommend validating the name attribute in the User model, but you do you with validations -- I’m not getting into that in this blog post.
+Next, we’re going to add a name field on our sign up form, update the params for the controller to accept the name input, and let Devise know we’re using our own controller in `config/routes.rb`. I also recommend validating the name attribute in the User model, but you do you with validations—I’m not getting into that in this blog post.
 
 Open the registration form at `views/devise/registrations/new.html.erb`.
 
@@ -96,11 +96,11 @@ If you run `rake routes` again you’ll see your login/signup/logout paths are u
 
 Most savvy web surfers expect to be able to log in to whatever app they want based on the login credentials from other apps, it’s pretty much the norm now to see the options to sign up with Google or Facebook. Omniauth is a gem that provides a library that standardizes the process for authenticating through third-parties, making it easier and faster to set up multiple providers.
 
-To use Omniauth, add `gem 'omniauth-github'` and `gem 'omniauth-facebook'` to your gemfile and run `bundle install`. Most provider-specific Omniauth gems will require all the dependencies you need so it is not necessary to add `gem 'omniauth'` as well, but if you run into any difficulties with dependencies you can go ahead and add it as well.
+To use Omniauth, add `gem 'omniauth-github'` and `gem 'omniauth-facebook'` to your gemfile and run `bundle install`. Most provider-specific Omniauth gems will require all the dependencies you need so it is not necessary to add `gem 'omniauth'` as well, but if you run into any difficulties with dependencies you can go ahead and add it to your gemfile.
 
 Since we’re going to add Facebook and GitHub to our app, you will first need to register your app with these providers through their developer portals. To get to the developer page on Facebook just Google “Facebook for developers”, go to My Apps and click New App. For GitHub, go to Settings > Developer Settings > OAuth Apps and then create a new app from there.
 
-The steps to register an app and the page set-up changes from time to time, so I won’t go into details about how to register your app here -- Google it for up-to-date guides. Just fill in info as prompted and use localhost:3000 for your website URL. In the fields for “Valid OAuth Redirect URIs” or “Callback URL” enter `http://localhost:3000/users/auth/facebook/callback` or `http://localhost:3000/users/auth/github/callback` for Facebook and GitHub, respectively. And find the App ID/Client ID and key that they provide you after registering, you’ll need that to configure Omniauth in our next step.
+The steps to register an app and the page set-up changes from time to time, so I won’t go into details about how to register your app here—Google it for up-to-date guides. Just fill in info as prompted and use localhost:3000 for your website URL. In the fields for “Valid OAuth Redirect URIs” or “Callback URL” enter `http://localhost:3000/users/auth/facebook/callback` or `http://localhost:3000/users/auth/github/callback` for Facebook and GitHub, respectively. And find the App ID/Client ID and key that they provide you after registering, you’ll need that to configure Omniauth in our next step.
 
 In `config/initializers/devise.rb` around line 270 you’ll see the Omniauth section. Add the IDs and keys from Facebook and GitHub:
 
@@ -136,6 +136,7 @@ The authentication data from the provider is a hash with “info” as a nested 
   "image"=>"http://graph.facebook.com/v2.6/123456789012345/picture"},
 
 "credentials"=>
+
  {"token"=>"ABCDaEFbcGHIJKLMNdlOPeQRfSTUVWgXf1hYiZAjBkClDEmFG234n5oH6p7IJqKr0stLMNuOPQRv86S47TUVWX1YZwABCDxyz2EabcdFGeH4IfgJK9hLi0jM1kNOPQlRmn1oSTUp5qr7VWstuXvYZwxAByza807CbD9c3defEFGghijkHIJK",
   "expires_at"=>1503263133,
   "expires"=>true},
@@ -166,7 +167,7 @@ Devise will magically (not really, it’s just code) add the “Log in with Face
 <iframe src="https://giphy.com/embed/s2qXK8wAvkHTO" width="480" height="316" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 
-If you liked this walk-through please connect with me on [LinkedIn](https://www.linkedin.com/in/leonorcolbert/) or check out my code on [GitHub](https://github.com/LeonorPDX) &#128512;
+If you liked this walk-through please connect with me on [LinkedIn](https://www.linkedin.com/in/leonorcolbert/) and check out my code on [GitHub](https://github.com/LeonorPDX) &#128512;
 
 Thanks for reading, and happy coding!
 
