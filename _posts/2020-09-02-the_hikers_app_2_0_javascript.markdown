@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "The Hikers App 2.0: JavaScript"
-date:       2020-09-02 23:30:45 +0000
+date:       2020-09-02 19:30:46 -0400
 permalink:  the_hikers_app_2_0_javascript
 ---
 
 
-Another portfolio project completed, another module of Faltiron School's Software Engineering program behind me! After developing a deep understanding of Ruby and Rails over the past months, it was so much fun to tackle something completely different with JavaScript; I was excited to finally be learning the language that makes responsive DOM styling possible, something users expect on pretty much every kind of professional website.
+Another portfolio project completed, another module of Flatiron School's Software Engineering program behind me! After developing a deep understanding of Ruby and Rails over the past months, it was so much fun to tackle something completely different with JavaScript; I was excited to finally be learning the language that makes responsive DOM styling possible, something users expect on pretty much every kind of professional website.
 
 For this portfolio project, we were asked to create a single page web application that leverages our existing skills in Ruby and Rails to handle the backend, and uses our new skills in JavaScript to handle everything on the client-side—i.e., DOM manipulation such as rendering, updating, and handling form submissions. Using asynchronous JavaScript and JSON to communicate with the backend, our web application would allow users to perform at least two of the basic CRUD actions (create, read, update, destroy).
 
