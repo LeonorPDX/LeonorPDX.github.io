@@ -22,15 +22,17 @@ The backend is based on Rails and Active Record to manage a database and communi
 
 ```
 javascript-hikers-app/
-  backend/
-    app/
-    (...other rails files and folders)
-  frontend/
-	  src/
-		  index.js
-    index.html
-  README.md
-	LICENSE
+ |- backend/
+ |    |- app/
+ |    |- (...other rails files and folders)
+ |
+ |- frontend/
+ |    |- src/
+ |        |- index.js
+ |    |- index.html
+ |
+ |- README.md
+ |- LICENSE
 ```
 
 Next I started working with HTML, CSS, and JavaScript to get the frontend up and running. I used Bulma, the same CSS framework I used in my previous Rails project, so that the styling on my 2.0 version would be consistent. With Bulma, you are able to link to their CSS in the HTML without downloading and importing Bulma into your own CSS file; this worked great for me, but doesn't permit for customization of Bulma CSS (like color schemes, fonts, etc).
@@ -81,19 +83,21 @@ Next I wrote my first `fetch` request to the backend, worked on the Rails contro
 
 ```
 javascript-hikers-app/
-  backend/
-    app/
-    (...other rails files and folders)
-  frontend/
-	  src/
-		  index.js
-			appMain.js
-			appAdapter.js
-			hike.js
-			trailhead.js
-    index.html
-  README.md
-	LICENSE
+ |- backend/
+ |    |- app/
+ |    |- (...other rails files and folders)
+ |
+ |- frontend/
+ |    |- src/
+ |        |- index.js
+ |        |- appMain.js
+ |        |- appAdapter.js
+ |        |- trailhead.js
+ |        |- hike.js
+ |    |- index.html
+ |
+ |- README.md
+ |- LICENSE
 ```
 
 ### Challenges
