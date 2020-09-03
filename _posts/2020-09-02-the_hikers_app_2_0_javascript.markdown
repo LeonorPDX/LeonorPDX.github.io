@@ -75,7 +75,7 @@ My first step was to create an index HTML file and hard-code the format that I w
 
 With Bulma's styling, the above HTML gave me a nice tile with a level title and button (code for the upper banner and buttons not shown):
 
-![](https://imgur.com/UUqn2ei)
+![](https://i.imgur.com/UUqn2ei.png)
 
 This was a crucial step for me, I know I would have been overwhelmed trying to write the JavaScript function to format each trailhead and hike tile had I not worked out how the finished HTML would need to look to get the formatting I wanted.
 
