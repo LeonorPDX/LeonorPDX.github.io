@@ -18,7 +18,7 @@ For my project, I opted to do a 2.0 version of my previous portfolio project, [t
 
 The first step for me was sketching out a work plan, including user stories and wire frames of how I wanted my pages to look and work. I organized the work plan chronologically, highlighting when I should be moving back and forth between working on the frontend and the backend. Once I had decided on a plan of action, I was able to hit the ground running and start with building my backend.
 
-The backend is based on Rails and Active Record to manage a database and communicate JSON to the frontend via RESTful routes. When generating the new app, I used the `--api` flag so Rails only create the files I would need for the backend. With my previous experience in Rails, I was able to get models, associations, routes, and controller actions configured very efficiently. Within 15 minutes of running `rails new`, I was in the console working with seed data and making sure everything on my backend was running smoothly. I then created the new frontend directory:
+The backend is based on Rails and Active Record to manage a database and communicate JSON to the frontend via RESTful routes. When generating the new app, I used the `--api` flag so Rails only created the files I would need for the backend. With my previous experience in Rails, I was able to get models, associations, routes, and controller actions configured very efficiently. Within 15 minutes of running `rails new`, I was in the console working with seed data and making sure everything on my backend was running smoothly. I then created the new frontend directory:
 
 ```
 javascript-hikers-app/
@@ -108,7 +108,7 @@ Context in JavaScript can be challenging, especially when dealing with asynchron
 
 JavaScript had a steep learning curve, and a couple weeks into this module I was feeling pretty bewildered. I am happy that by the time I got to working on this project, JavaScript was feeling much more natural to me. One of the moments that made me feel the most confident in my coding was when I was coming towards the end of my project; the only thing left to do was to make the toggle buttons in the corner of my hike tiles work to show more or less information about the hikes.
 
-I only had 15 minutes before I needed to leave for work, I wasn't sure if I should even start working on a new function when I probably wouldn't have time to finish it. I decided to give it a shot: I quickly figured out how I wanted to handle the button, wrote out a function and had it working on my browser in 10 minutes! I could believe that I was so comfortable working in JavaScript when just a few weeks before I had been totally stumped.
+I only had 15 minutes before I needed to leave for work, I wasn't sure if I should even start working on a new function when I probably wouldn't have time to finish it. I decided to give it a shot: I quickly figured out how I wanted to handle the button, wrote out a function and had it working on my browser in 10 minutes! I couldn't believe that I was so comfortable working in JavaScript when just a few weeks before I had been totally stumped.
 
 The toggle content function, in the Hike class:
 
@@ -144,7 +144,7 @@ The toggle content function, in the Hike class:
 
 ### Closing Thoughts
 
-As I enter the final module in Flatiron School's Software Engineering program, I'm feeling more confident and optimistic with each passing day. It was a difficult decision to transition into a new career, but I have found this work to be incredibly satisfying. The innovation and scope for continued learning throughout my career excites me, and I really enjoy seeing something I have imagined and created made real through programming. Sure, sometimes it feels like this...
+As I enter the final module in Flatiron School's Software Engineering program, I'm feeling more and more confident and optimistic. It was a difficult decision to transition into a new career, but I have found this work to be incredibly satisfying. The innovation and scope for continued learning throughout my career excites me, and I really enjoy seeing something I have imagined and created made real through programming. Sure, sometimes it feels like this...
 
 <iframe src="https://giphy.com/embed/dlMIwDQAxXn1K" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
