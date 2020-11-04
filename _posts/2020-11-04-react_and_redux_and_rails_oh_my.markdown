@@ -13,7 +13,10 @@ For this project, students were tasked with making a single-page web application
 For my project I made a book browsing app where users can view an index of books, search by book title, and add or remove books from a personal collection. Users are also able to record notes on books that are in their collection, which are rendered on the book's show page. While a user enters a username when they first visit the app, I did not use any authorization/authentication/session management on the frontend—instead I used a simple workaround on the backend to simulate a user session experience. I'll get into that more later in this post.
 
 
-[EMBED VIDEO HERE]
+Check out the [GitHub repo](https://github.com/LeonorPDX/react-books-app) to look at the code or clone it to try yourself, or watch the video to see Boss Books in action.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-XKY1mlPLbU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## My Process
 
