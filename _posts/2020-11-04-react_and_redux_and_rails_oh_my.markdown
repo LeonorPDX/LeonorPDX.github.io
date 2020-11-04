@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "React and Redux and Rails, oh my!"
-date:       2020-11-04 19:51:19 +0000
+date:       2020-11-04 14:51:19 -0500
 permalink:  react_and_redux_and_rails_oh_my
 ---
 
 
-I can't believe we're already here, at the end of my journey with Flatiron School! I just finished my final portfolio project, I got to build on my existing full-stack knowledge and get deeper into JavaScript with my newly acquired skills in the React and Redux libraries.
+I can't believe we're already here, at the end of my journey with Flatiron School! I just finished my final portfolio project: I got to build on my existing full-stack knowledge and get deeper into JavaScript with my newly acquired skills in the React and Redux libraries.
 
-For this project, students were tasked with making a single page web application that used React's declarative routing to render different "pages, " all from a single HTML file. We were also required to make a backend API with Rails, manage state on the frontend with Redux, and use Thunk middleware to handle asynchronous fetch requests and dispatches to our reducer(s).
+For this project, students were tasked with making a single-page web application that used React's declarative routing to render different "pages," all from a single HTML file. We were also required to make a backend API with Rails, manage state on the frontend with Redux, and use Thunk middleware to handle asynchronous fetch requests and dispatches to our reducer(s).
 
 For my project I made a book browsing app where users can view an index of books, search by book title, and add or remove books from a personal collection. Users are also able to record notes on books that are in their collection, which are rendered on the book's show page. While a user enters a username when they first visit the app, I did not use any authorization/authentication/session management on the frontend—instead I used a simple workaround on the backend to simulate a user session experience. I'll get into that more later in this post.
 
@@ -189,7 +189,7 @@ In the future, I’d like to rebuild this project, or another React/Redux projec
 
 ## Successes
 
-I am getting so much faster and better at debugging! Knowing when to use `byebug` or dip into the Rails console on the backend, using debugger on the frontend to pause on processes and closely examine how state and props are changing, using `console.log` to see how props are getting populated as components mount (asynchronously, duh), being able to check out the component tree in React dev tools and inspecting the props on various components, and using the Redux dev tools to monitor state and see when reducer actions are being triggered… There are so many tools at a developer’s disposal, I feel confident in using a wide variety of debugging resources.
+I am getting so much faster and better at debugging! Knowing when to use `byebug` or dip into the Rails console on the backend, using debugger on the frontend to pause on processes and closely examine how state and props are changing, using `console.log` to see how props are getting populated as components mount (asynchronously, duh), being able to check out the component tree in React dev tools and inspecting the props on various components, and using the Redux dev tools to monitor state and see when reducer actions are being triggered… There are so many resources at a developer’s disposal, I feel confident in using a wide variety of debugging tools.
 
 Building this project, I was able to quickly figure out why something was or was not working, and identify where I needed to fix the problem. Just a few months ago I would not have been able to figure out these complex problems on my own, knowing exactly where to look and how to find what I’m looking for. I’ve grown so much in such a short period of time, I can’t wait to see where my skills will be at a year from now!
 
