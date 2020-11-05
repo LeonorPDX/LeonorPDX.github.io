@@ -20,15 +20,15 @@ Check out the [GitHub repo](https://github.com/LeonorPDX/react-books-app) to loo
 
 ## My Process
 
-This project is actually requires building two separate apps. They work together but are actually completely independent, running on separate servers. In order to have the two work well together, planning was key. I've found strong planning at the beginning of a project greatly increases my productivity and allows me to quickly work through the actual coding.
+This project actually requires building two separate apps. They work together but are completely independent, running on separate servers. In order to have the two work well together, planning was key. I've found strong planning at the beginning of a project greatly increases my productivity and allows me to quickly work through the actual coding.
 
 Like in my previous projects, I started with wireframing pages and writing user stories; this gave me a clear picture in my mind of what the user experience would look like. This also let me work out how I would need to structure state in the Redux store, how state would be used in different parts of the app, and what fetch requests I would need to make. Next I worked on listing out the models and associations on the backend, the controller actions I would need for each fetch, and the specific JSON I wanted returned to fetch requests to make manipulating state as easy as possible.
 
-Then it's time to get coding! I started with the Rails API because it's quick and easy for me to set up at this point, and my API performance would dictate how my action creators, fetch requests, and dispatches to my reducer would work on the frontend. I used the `rails new` command with the `--api` flag to get the basic file structure set up, used ` rails g resource` to make each of my models and the controllers I would need, then I did some quick validations and set up the associations between my models.
+Then it's time to get coding! I started with the Rails API because it's quick and easy for me to set up at this point, and my API performance would dictate how my action creators, fetch requests, and dispatches to my reducer would work on the frontend. I used the `rails new` command with the `--api` flag to get the basic file structure set up, used ` rails g resource ` to make each of my models and the controllers I would need, then I did some quick validations and set up the associations between my models.
 
 ![](https://i.imgur.com/wFPvLjL.jpg)
 
-Next I seeded the database. I wanted the app to have a decent index of books so the user would have a many books to choose from; I plan on reworking this project and I plan on creating a rake task to periodically call to a best sellers API to add books to the database. But for this version, one good batch of seeds would work. I used the Rest Client gem and the Google Books API to quickly create 80 books with all the data needed for my Book model. Here's the JSON response from the Google Books API:
+Next I seeded the database. I wanted the app to have a decent index of books so the user would have many books to choose from; I plan on reworking this project and creating a rake task to periodically call to a "best sellers" API to add books to the database. But for this version, one good batch of seeds would work. I used the Rest Client gem and the Google Books API to quickly create 80 books with all the data needed for my Book model. Here's the JSON response from the Google Books API:
 
 ![](https://i.imgur.com/rhkIJw6.png)
 
@@ -63,9 +63,9 @@ secondArray.each do |book|
 end
 ```
 
-The maximum response from Google Books is 40 items, so I made two requests to different bookshelves. giving me 80 books for my seeds.
+The maximum response from Google Books is 40 items, so I made two requests to different bookshelves, giving me 80 books for my seeds.
 
-Next I made my controller actions and tested them in my browser so I could see the JSON response my Rails API was returning so I'd know exactly what I was working with on the frontend.
+Next I made my controller actions and tested them in my browser so I could see the JSON response my Rails API was returning. I wanted to know exactly what I was working with on the frontend.
 
 Then I was ready to dive into the frontend. I made the directory with `create-react-app`, added packages with yarn, set up my `index.js` file to set up the Redux store and Thunk middleware, and configure the React and Redux dev tools. I quickly got `App.js` and `BooksContainer.js` files set up, and made an action creator to fetch books from my Rails API, and a reducer to update the Redux store. With `console.log` and the dev tools in the browser, I could see my frontend was successfully getting information from the backend.
 
@@ -192,7 +192,7 @@ In the future, I’d like to rebuild this project, or another React/Redux projec
 
 ## Successes
 
-I am getting so much faster and better at debugging! Knowing when to use `byebug` or dip into the Rails console on the backend, using debugger on the frontend to pause on processes and closely examine how state and props are changing, using `console.log` to see how props are getting populated as components mount (asynchronously, duh), being able to check out the component tree in React dev tools and inspecting the props on various components, and using the Redux dev tools to monitor state and see when reducer actions are being triggered… There are so many resources at a developer’s disposal, I feel confident in using a wide variety of debugging tools.
+I am getting so much faster and better at debugging! Knowing when to use `byebug` or dip into the Rails console on the backend, using `debugger` on the frontend to pause processes and closely examine how state and props are changing, using `console.log` to see how props are getting populated as components mount (asynchronously, duh), being able to check out the component tree in React dev tools and inspecting the props on various components, and using the Redux dev tools to monitor state and see when reducer actions are being triggered… There are so many resources at a developer’s disposal, I feel confident in using a wide variety of debugging tools.
 
 Building this project, I was able to quickly figure out why something was or was not working, and identify where I needed to fix the problem. Just a few months ago I would not have been able to figure out these complex problems on my own, knowing exactly where to look and how to find what I’m looking for. I’ve grown so much in such a short period of time, I can’t wait to see where my skills will be at a year from now!
 
