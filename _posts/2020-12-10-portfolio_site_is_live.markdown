@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Portfolio Site is Live!"
-date:       2020-12-10 20:32:39 +0000
+date:       2020-12-10 15:32:40 -0500
 permalink:  portfolio_site_is_live
 ---
 
 
-I recently built a portfolio site to showcase some of my personal projects, you can check it out [here](www.leonorcolbert.com). I built the site from scratch using HTML, CSS, and some simple JavaScript.
+I recently built a portfolio site to showcase some of my personal projects, you can check it out [here](https://www.leonorcolbert.com). I built the site from scratch using HTML, CSS, and some simple JavaScript.
 
 <iframe src="https://giphy.com/embed/ytbg9ZKXhD6lw7ebRV" width="480" height="260" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
