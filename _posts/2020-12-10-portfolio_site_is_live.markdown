@@ -38,14 +38,14 @@ A quick web search will bring up lots of tools to help you develop your brand id
 
 Once you've done some work on identifying your personal brand, try to distill its essence to a few key-words or a key-phrase. For instance, I consider my brand key-words to be: big-picture thinker, detail oriented, and interpretation specialist. My key-phrase could be that I “never lose sight of the forest for the trees,” meaning I excel in big-picture thinking while maintaining close attention to detail; this phrase also captures my affinity for the outdoors and love of language.
 
-Choosing color and design elements that align with your brand doesn't have to be hard; it can happen organically as you simply select colors and designs that appeal to you. You can also do web searches for the key words of your brand plus "color scheme" or "design scheme." There are lots of great resources to help you generate ideas like this [blog post](https://visme.co/blog/website-color-schemes/) on color schemes.
+Choosing color and design elements that align with your brand doesn't have to be hard; it can happen organically as you simply select colors and designs that appeal to you. You can also do web searches for the key-words of your brand plus "color scheme" or "design scheme." There are lots of great resources to help you generate ideas like this [blog post](https://visme.co/blog/website-color-schemes/) on color schemes.
 
 And lastly, be sure to write in a voice that embodies your brand—is your brand Creative? Corporate? Jack/Jill-of-all-trades looking for scrappy start-up opportunities? If you need ideas on tone, look at company websites that reflect your brand and pay attention to their communication styles.
 
 
 ## Use a custom URL
 
-There are lots of reasonably priced options for domain registration and web hosting. I used [Netlify](https://www.netlify.com/); they provide domain registration and hosting all for one low annual fee. You just link Netlify to your GitHub repo and they will automaticly deploy updates triggered by changes to the GitHub repo. Plus Netlify automatically issues a SSL certificate, making your site more secure.
+There are lots of reasonably priced options for domain registration and web hosting. I used [Netlify](https://www.netlify.com/); they provide domain registration and hosting all for one low annual fee. You just link Netlify to your GitHub repo and they will automatically deploy updates triggered by changes to the GitHub repo. Plus Netlify automatically issues a SSL certificate, making your site more secure.
 
 You can also use other hosts like DigitalOcean or Heroku, or purchase your domain registration from a domain registrar like GoDaddy and then point the DNS to a GitHub page. Personally, I found Netlify to be a really quick, painless way of getting a site up in a matter of minutes. 
 
@@ -57,7 +57,7 @@ In most cases, it is best to build your site from scratch. Afterall, you are put
 
 You can also opt to use a WordPress template and customize the theme. As long as you make the effort to customize the theme and template, this too can be a great way to showcase your skills. Many clients will use WordPress or other CMS platforms rather than asking for a developer to build a site/app from scratch, so showcasing your ability to create customized sites on a CMS platform is valuable.
 
-Whether you use a template, code from scratch, or customize a CMS template, always design mobile-first. Most users will view your site for the virst time on a mobile device. As you are designing the site, always be playing with your browser window size. You can also use cross browser compatability testers, like [Lambda Test](https://www.lambdatest.com/), to see how your site would behave on different devices, operating systems, and browsers.
+Whether you use a template, code from scratch, or customize a CMS template, always design mobile-first. Most users will view your site for the first time on a mobile device. As you are designing the site, always be playing with your browser window size. You can also use cross browser compatibility testers, like [Lambda Test](https://www.lambdatest.com/), to see how your site would behave on different devices, operating systems, and browsers.
 
 
 ## Bonus: Accessibility and usability!
@@ -72,5 +72,5 @@ Most junior web developers only have limited knowledge of accessibility best pra
 
 ## Conclusion
 
-The most important thing is to just to get a portfolio out there. It is an essential way to show what you can do as a career-changer, self-taught developer, or grad of a bootcamp. Have fun doing it, and be proud of your work!
+The most important thing is to just get a portfolio out there. It is an essential way to show what you can do as a career-changer, self-taught developer, or grad of a bootcamp. Have fun doing it, and be proud of your work!
 
