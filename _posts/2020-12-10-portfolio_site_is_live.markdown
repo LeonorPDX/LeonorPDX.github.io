@@ -16,7 +16,7 @@ When it came to creating my portfolio site, I read lots of blogs and got tons of
 
 First, keep it simple and always keep the user experience in mind. A single page should have everything a visitor needs to see (who you are, what you do, how to reach you).
 
-For your text content, make sure you keep it brief: in general, people will only read short blocks of text. When users see a longer block of text they tend to skip it entirely rather than reading any of it. ***By saying less, you will communicate more.***
+For your text content, make sure you keep it brief: in general, people will only read short blocks of text. When users see a longer block of text they tend to skip it entirely rather than reading any of it. **By saying less, you will communicate more.**
 
 
 ## Include your portfolio projects (obviously)
@@ -34,7 +34,7 @@ In my portfolio site, I opted to provide a brief top-level description on the pr
 
 First, you have to figure out what your brand is. Your photos, “About Me”, colors, and overall design should all work together to communicate your brand identity.
 
-A quick web search will bring up lots of tools to heklp you develop your brand identity. [This article](https://fabrikbrands.com/how-to-create-a-brand-identity/) is a good overview on questions to consider when developing your personal brand; while written for companies, it can easily be translated to individual professionals’ branding.
+A quick web search will bring up lots of tools to help you develop your brand identity. [This article](https://fabrikbrands.com/how-to-create-a-brand-identity/) is a good overview on questions to consider when developing your personal brand; while written for companies, it can easily be translated to individual professionals’ branding.
 
 Once you've done some work on identify your personal brand, try to distill its essence to a few key-words or a key-phrase. For instance, I consider my brand key-words to be: big-picture thinker, detail oriented, and interpretation specialist. My key-phrase could be that I “never lose sight of the forest for the trees,” meaning I excel in big-picture thinking while maintaining close attention to detail; this phrase also captures my affinity for the outdoors and love of language.
 
