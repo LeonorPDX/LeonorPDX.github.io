@@ -8,7 +8,7 @@ permalink:  portfolio_site_is_live
 
 I recently built a portfolio site to showcase some of my personal projects, you can check it out [here](https://www.leonorcolbert.com). I built the site from scratch using HTML, CSS, and some simple JavaScript.
 
-<iframe src="https://giphy.com/embed/ytbg9ZKXhD6lw7ebRV" width="480" height="260" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/ytbg9ZKXhD6lw7ebRV" width="480" height="260" frameBorder="0" allowFullScreen></iframe>
 
 When it came to creating my portfolio site, I read lots of blogs and got tons of advice from colleagues and mentors. This blog post is a synthesis of all these difference sources as well as my thoughts on important things to do when building your first portfolio site.
 
@@ -21,7 +21,7 @@ For your text content, make sure you keep it brief: in general, people will only
 
 ## Include your portfolio projects (obviously)
 
-There are some different opinions on how many projects and what kind of projects you should include. In my opinion, I think it's best to include any finished project or partial project that showcases your skills; don't include anything you copied or any projects that don't work or don't follow programming conventions and best practices. Also remember that visitors likely won't spend nearly as much time looking at your portfolio as you'd like to believe -- put your best projects at the top of the list.
+There are some different opinions on how many projects and what kind of projects you should include. In my opinion, I think it's best to include any finished project or partial project that showcases your skills; don't include anything you copied or any projects that don't work or don't follow programming conventions and best practices. Also remember that visitors likely won't spend nearly as much time looking at your portfolio as you'd like to believe—put your best projects at the top of the list.
 
 If your projects are deployed, you can provide external links; you should still include a brief description and link to the GitHub repo on your portfolio site so visitors can get a feel for the project without leaving the current page.
 
@@ -34,13 +34,13 @@ In my portfolio site, I opted to provide a brief top-level description on the pr
 
 First, you have to figure out what your brand is. Your photos, “About Me”, colors, and overall design should all work together to communicate your brand identity.
 
-A quick web search will bring up lots of tools to help you develop your brand identity. [This article](https://fabrikbrands.com/how-to-create-a-brand-identity/) is a good overview on questions to consider when developing your personal brand; while written for companies, it can easily be translated to individual professionals’ branding.
+A quick web search will bring up lots of tools to help you develop your brand identity. [This article](https://fabrikbrands.com/how-to-create-a-brand-identity/) is a good overview of questions to consider when developing your personal brand; while written for companies, it can easily be translated to individual professionals’ branding.
 
-Once you've done some work on identify your personal brand, try to distill its essence to a few key-words or a key-phrase. For instance, I consider my brand key-words to be: big-picture thinker, detail oriented, and interpretation specialist. My key-phrase could be that I “never lose sight of the forest for the trees,” meaning I excel in big-picture thinking while maintaining close attention to detail; this phrase also captures my affinity for the outdoors and love of language.
+Once you've done some work on identifying your personal brand, try to distill its essence to a few key-words or a key-phrase. For instance, I consider my brand key-words to be: big-picture thinker, detail oriented, and interpretation specialist. My key-phrase could be that I “never lose sight of the forest for the trees,” meaning I excel in big-picture thinking while maintaining close attention to detail; this phrase also captures my affinity for the outdoors and love of language.
 
 Choosing color and design elements that align with your brand doesn't have to be hard; it can happen organically as you simply select colors and designs that appeal to you. You can also do web searches for the key words of your brand plus "color scheme" or "design scheme." There are lots of great resources to help you generate ideas like this [blog post](https://visme.co/blog/website-color-schemes/) on color schemes.
 
-And lastly, be sure to write with a voice that embodies your brand -- is your brand Creative? Corporate? Jack/Jill-of-all-trades looking for scrappy start-up opportunities? If you need ideas on tone, look at company websites that reflect your brand and pay attention to their communication styles.
+And lastly, be sure to write in a voice that embodies your brand—is your brand Creative? Corporate? Jack/Jill-of-all-trades looking for scrappy start-up opportunities? If you need ideas on tone, look at company websites that reflect your brand and pay attention to their communication styles.
 
 
 ## Use a custom URL
