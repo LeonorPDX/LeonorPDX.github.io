@@ -36,7 +36,7 @@ First, you have to figure out what your brand is. Your photos, “About Me”, c
 
 A quick web search will bring up lots of tools to help you develop your brand identity. [This article](https://fabrikbrands.com/how-to-create-a-brand-identity/) is a good overview of questions to consider when developing your personal brand; while written for companies, it can easily be translated to individual professionals’ branding.
 
-Once you've done some work on identifying your personal brand, try to distill its essence to a few key-words or a key-phrase. For instance, I consider my brand key-words to be: big-picture thinker, detail oriented, and interpretation specialist. My key-phrase could be that I “never lose sight of the forest for the trees,” meaning I excel in big-picture thinking while maintaining close attention to detail; this phrase also captures my affinity for the outdoors and love of language.
+Once you've done some work on identifying your personal brand, try to distill its essence to a few key-words or a key-phrase. Some of my brand key-words are: big-picture thinker, detail oriented, communication specialist, friendly, collaborative, community-minded, and creative.
 
 Choosing color and design elements that align with your brand doesn't have to be hard; it can happen organically as you simply select colors and designs that appeal to you. You can also do web searches for the key-words of your brand plus "color scheme" or "design scheme." There are lots of great resources to help you generate ideas like this [blog post](https://visme.co/blog/website-color-schemes/) on color schemes.
 
