@@ -8,7 +8,7 @@ permalink:  portfolio_site_is_live
 
 I recently built a portfolio site to showcase some of my personal projects, you can check it out [here](https://www.leonorcolbert.com). I built the site from scratch using HTML, CSS, and some simple JavaScript.
 
-<iframe src="https://media4.giphy.com/media/ytbg9ZKXhD6lw7ebRV/giphy.gif" width="480" height="260" frameBorder="0" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/ytbg9ZKXhD6lw7ebRV" width="480" height="260" frameBorder="0" allowFullScreen></iframe>
 
 When it came to creating my portfolio site, I read lots of blogs and got tons of advice from colleagues and mentors. This blog post is a synthesis of all these difference sources as well as my thoughts on important things to do when building your first portfolio site.
 
