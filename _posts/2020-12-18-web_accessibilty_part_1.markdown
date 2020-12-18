@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Web Accessibilty: Part 1"
-date:       2020-12-18 21:13:16 +0000
+date:       2020-12-18 16:13:17 -0500
 permalink:  web_accessibilty_part_1
 ---
 
@@ -30,6 +30,7 @@ This blog post will cover some of the basics of accessibility as it relates to v
 ## Note on Personas
 
 It is useful to create personas to help web professionals conceptualize the users’ experiences and needs; personas are imagined users and include the user’s mindset, motivation, and functional needs.
+
 In order to give us an understanding of mindset and motivation, personas typically include information about the user’s age, gender, background, values, and behavior patterns (e.g., an early-adopter of new tech, a busy career-person who does all their shopping online, etc.).
 
 Functional needs include diverse abilities, such as users with no vision who rely on screen readers, users with low vision who view the screen at 400% magnification, users with severe arthritis who rely on keyboard navigation, users with Autism Spectrum Disorder, and any number of other cognitive or physical differences.
@@ -55,7 +56,7 @@ It isn’t that we should not use color—color is great, and conveys a lot of i
 * Line patterns in graphs
 * Labels 
 
-Color contrast can also have a big impact on accessibility, and usability for all users. Color contrasts to colors in the background and foreground (such as page and text color) and the relative brightness and luminosity of the contrasting colors. Minimum accessible contrast ratios are outlined in the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/). There are many [free contrast checkers](https://contrastchecker.com/) that can check your color palette against WCAG and other accessibility guidelines. When making style guides, check the contrast of all colors in the palette; be sure to indicate which colors that can be used in combination for foreground and background, and which colors should not be used together.
+Color contrast can also have a big impact on accessibility, and usability for all users. Color contrast refers to the colors in the background and foreground (such as page and text color) and the relative brightness and luminosity of the contrasting colors. Minimum accessible contrast ratios are outlined in the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/). There are many [free contrast checkers](https://contrastchecker.com/) that can check your color palette against WCAG and other accessibility guidelines. When making style guides, check the contrast of all colors in the palette; be sure to indicate which colors that can be used in combination for foreground and background, and which colors should not be used together.
 
 ### Animations & Flashing
 
@@ -63,9 +64,9 @@ Animations have been known to trigger vestibular disorders symptoms. Have you ev
 
 Designing to accommodate vestibular disorders is one of the newest areas of advancement in accessibility, and we will likely see improved recommendations on design best practices as we learn more about how design relates to vestibular disorders. Here are some solutions that developers and designers are already employing:
 
-* Include an option to turn off animation. Some operating systems and browsers have an option to automatically turn off animations; you can code your app to check for this option and change its interface accordingly.
-* Consider dissolve/fades instead of motion
-* Make sure the content and functionality do not rely on animation to convey meaning
+* Include an option to turn off animation or videos. Some operating systems and browsers have an option to automatically turn off animations; you can code your app to check for this option and change its interface accordingly.
+* Consider dissolve/fade transitions instead of motion
+* Make sure the content and functionality of the app do not rely on animation to convey meaning
 * Design stateful animation that has meaningful start and end states
 
 Most people already know that flashing can trigger seizures; we often see warnings at the start of some movies or amusement park rides. Obviously we should not deliberately include flashing in videos or animations as part of our web design. However, it is important to note that some scripts or state changes that trigger a repainting of the DOM can also cause flashing.
@@ -74,12 +75,13 @@ Most people already know that flashing can trigger seizures; we often see warnin
 
 ### Grouping
 
-Grouping is the idea that related content should be proximal. Consider users using 200%, 400%, or even higher magnification -- they only see a fraction of the window at any given time when navigating your app with magnification. Some examples where this might be challenging:
+Grouping is the idea that related content should be proximal. Consider users using 200%, 400%, or even higher magnification—they only see a fraction of the window at any given time when navigating your app with magnification. Some examples where this might be challenging:
 
-* Using a slider to move a video to a specific time point, but the time indicator on the video is only visible at the beginning -- when zoomed in on the slider, the user can’t see what time they are at in the video. Easy solution: have the time indicator appear as a tab directly above or below the slider.
-* Add to cart button causes the cart icon in the upper right corner to change color briefly and increments the number showing how many items are in the cart; however, nothing happens visually right around the “add to cart button”, making it difficult to tell if you have successfully added the item to your cart. Easy solution: have the “add to cart” button indicate success in addition to the cart in the upper right corner, using something like a check mark, success color, a short success message, or combination of these methods.
+* Using a slider to move a video to a specific time point, but the time indicator on the video is only visible at the beginning—when zoomed in on the slider, the user can’t see what time they are at in the video. **Easy solution:** have the time indicator appear as a tab directly above or below the slider.
 
-A quick and easy way to check for grouping accessibility is the “straw test.” Users with low vision say it’s like looking at the world through a straw; they have a very narrow field of vision. To simulate this, close one eye, form a loose fist, and hold your fist to your open eye so you can look through the opening formed between your palm and curled fingers. By doing so, you can narrow your field of vision and simulate a low vision user’s experience who relies on high magnification.
+* "Add to cart" button causes the cart icon in the upper right corner to change color briefly and increments the number showing how many items are in the cart; however, nothing happens visually right around the “add to cart” button, making it difficult to tell if you have successfully added the item to your cart when viewing the screen with magnification. **Easy solution:** have the “add to cart” button indicate success in addition to the cart in the upper right corner, using something like a check mark, success color, a short success message, or combination of these methods.
+
+A quick and easy way to check for grouping accessibility is the “straw test.” Users with low vision often say it’s like looking at the world through a straw; they have a very narrow field of vision. To simulate this, close one eye, form a loose fist, and hold your fist to your open eye so you can look through the opening formed between your palm and curled fingers. By doing so, you can narrow your field of vision and simulate a low vision user’s experience who relies on high magnification.
 
 The straw test can be used at all levels of design (wireframing, development, etc.) and for walking through or testing out all functionality of your app.
 
