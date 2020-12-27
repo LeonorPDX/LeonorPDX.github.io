@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Web Accessibility: Part 2"
-date:       2020-12-27 19:57:08 +0000
+date:       2020-12-27 14:57:09 -0500
 permalink:  web_accessibility_part_2
 ---
 
@@ -44,25 +44,25 @@ In this example, it makes sense for the screen reader and tab navigation to reac
 
 ## Touch Interfaces
 
-Touch interfaces are ubiquitous, and will only become more common in coming years. The frequency of implementation, abilities, and sizes of touch interfaces have all rapidly increased over recent years. Touch interfaces with built-in accessibility features has also been on the rise, and we will likely see more innovation in this area in the future.
+Touch interfaces are ubiquitous, and will only become more common in coming years. The frequency of implementation, abilities, and variety of sizes of touch interfaces have all rapidly increased over recent years. Touch interfaces with built-in accessibility features have also been on the rise, and we will likely see more innovation in this area in the future.
 
-When considering touch interfaces, it’s important to remember that *we’re not all the same.* Consider how you use your touch screen—do you hold it with one hand, or two? Swipe with a finger or thumb? Type with one hand or two? Does it change? Now consider a user who uses their feet to manipulate their touch screen, or uses their nose, or uses voice recognition software and a bluetooth keyboard and doesn’t touch the screen at all—how does this change what the “perfect” touch interface might look like?
+When considering touch interfaces, it’s important to remember that **we’re not all the same.** Consider how you use your touch screen—do you hold it with one hand, or two? Swipe with a finger or thumb? Type with one hand or two? Does it change? Now consider a user who uses their feet to manipulate their touch screen, or uses their nose, or uses voice recognition software and a bluetooth keyboard and doesn’t touch the screen at all—how does this change what the “perfect” touch interface might look like?
 
 Bottom line, always test your apps with diverse users and consider that some users never touch the screen at all. 
 
 ### Target Sizes
 
-Target sizes can have a big impact on accessibility in touch interfaces, especially touch targets that are smaller such as results pagination, radio buttons, or dropdown menu selections. To make these smaller targets more accessible, make them bigger and give them more padding. This makes them easier for everyone, regardless of abilities.
+Target sizes can have a big impact on accessibility in touch interfaces, especially touch targets that are smaller such as results pagination buttons, radio buttons, or dropdown menu selections. To make these smaller targets more accessible, make them bigger and give them more padding. This makes them easier for everyone, regardless of abilities.
 
-Microsoft, Apple and Google all have guidelines on minimum target size in touch interfaces ranging from 34x34 to 48x48 pixels. There’s some debate if these are still too small, so when it doubt just make the targets a little bigger and farther apart,
+Microsoft, Apple and Google all have guidelines on minimum target size in touch interfaces ranging from 34x34 to 48x48 pixels. There’s some debate if these are still too small, so when in doubt just make the targets a little bigger and farther apart.
 
 ### Gestures
 
 Gestures are common in touch interfaces, things like pinch or spread two fingers to zoom in and out, slide to confirm, or swipe table to sort columns’ data to be ascending or descending.
 
-Not every user will be able to do every gesture, so it’s important to build in alternatives like double tap to toggle column order to to move a confirmation slider along its track. With every gesture-based function, ask: How would this work if the user *cannot* do the gesture?
+Not every user will be able to do every gesture, so it’s important to build in alternatives like double tap to toggle column order or to move a confirmation slider along its track. With every gesture-based function, ask: How would this work if the user *cannot* do the gesture?
 
-Developers can also do things like make the code that checks the slide-to-confirm gesture more generous, such as still accepting the gesture if the user moves outside of the slide field or overshoots the end point. This will make it easier for users with dexterity issues to use the gesture.
+Developers can also do things like make the code that checks the slide-to-confirm gesture more generous: accepting the gesture even if the user moves outside of the slide field or overshoots the end point. This will make it easier for users with dexterity issues to use the gesture.
 
 Microsoft, Apple and Google all have documentation on their guidelines for accessible touch interfaces. These guidelines are good resources to look at when working on your own accessibility as it relates to touch interfaces.
 
