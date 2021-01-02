@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Web Accessibility: Part 3"
-date:       2021-01-02 22:07:46 +0000
+date:       2021-01-02 17:07:47 -0500
 permalink:  web_accessibility_part_3
 ---
 
 
-We made it to 2021, woohoo! 
+We made it to 2021! 
 
 But on a serious note for a moment... This past year has been hard in a lot of ways: political and social upheaval, devastating wildfires and climate-related disasters, racial violence and the ongoing fight for racial justice, to name just a few. My hope is that we take these pangs as a call to action, and that we don't "go back to normal." I'm reminded of Steven Pinker's ***The Better Angels of Our Nature: Why Violence Has Declined***  and especially his argument that the continued decline of violence is not inevitable but relies on our empathy and reason. I hope recent events will catalyze our empathy and hone our reasoning, and that we take the necessary steps to build a better world for all of our community, our children, and children's children.
 
@@ -18,7 +18,7 @@ The rest of this post is a synthesis of Derek’s curriculum.
 
 ## Multimedia: Images, Audio and Video
 
-The web used to be a text based medium, but that changed when we gave browsers the ability to display images. Now there are literally thousands of hours of audio and video on the web hundreds of billions of images.
+The web used to be a text based medium, but that changed when we gave browsers the ability to display images. Now there are literally hundreds of billions of images on the web and billions of hours of audio and video recordings. On YouTube alone, 500 hours of video are uploaded *every minute*.
 
 Audio and video are very rich media; they convey a lot of very nuanced information. How do we ensure that users with differing abilities get to experience this richness? The first questions we should ask are “what is the purpose of this content?” and “how will people use this content?” 
 
