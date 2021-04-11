@@ -63,7 +63,7 @@ This is very similar to how you might access a news article a friend sent to you
 A helpful tool is the web developer extension for Chrome which allows you to examine a document outline; there are a number of other similar tools that you can use in other browser environments. Using a tool like this, look at the outline of your page: does the outline tell the “story” of your page? If so, you’re on the right track to make your page usable for everyone. If not, you have some work to do.
 
 ### The Importance of Page Titles
-Page titles are useful for everyone, they orient the user to what the page is about. They appear in a tab at the top of the browser, and are the first thing a screen reader announces when accessing a page. The titles need to differentiate each page: on a small business site selling various lawn care packages, each package’s “About” page should differentiate itself in the page title. Other pages, like contact and purchase, should also have descriptive titles.
+Page titles are useful for everyone, they orient the user to what the page is about. They appear in a tab at the top of the browser, and are the first thing a screen reader announces when accessing a page. The titles need to differentiate each page: on a small business site selling various lawn care packages, each package’s “About” page should differentiate itself in the page title. Other pages, like contact and purchase, should also have descriptive titles:
 * Packages - Green Thumb Lawncare
 * Locations - Green Thumb Lawncare
 * Contact Us - Green Thumb Lawncare
@@ -71,7 +71,7 @@ Page titles are useful for everyone, they orient the user to what the page is ab
 Page titles should read specific to general; by putting the distinguishing information first we help people quickly confirm they are on the page they want to be. Page titles should work with the page’s `<h1>` to give the user a clear sense of what the page is about.
 
 ### Page Structure
-Clean markup on the rest of the page completes the accessibility of your pages’ content and design. Take advantage of HTML5 elements, like `header`, `footer`, `aside`, `article`, `paragraph`, `main`, `nav`, and `button`. Use `table` for tabular data like an order summary, use `ol` and `ul` ordered and unordered lists.
+Clean markup on the rest of the page completes the accessibility of your pages’ content and design. Take advantage of HTML5 elements, like `header`, `footer`, `aside`, `article`, `paragraph`, `main`, `nav`, and `button`. Use `table` for tabular data like an order summary, use `ol` and `ul` for ordered and unordered lists.
 
 The least meaningful elements are spans, divs, and sections. Use those for elements where there is no other logical element. In all other cases, use the element that makes the most sense. All kinds of assistive technologies rely on working with these elements. Integrating the appropriate elements in your markup also makes your work more efficient, so it’s a win-win.
 
