@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Web Accessibility: Part 4"
-date:       2021-04-11 19:45:54 +0000
+date:       2021-04-11 15:45:54 -0400
 permalink:  web_accessibility_part_4
 ---
 
@@ -81,4 +81,4 @@ Accessibility is hugely important, and all too often it’s left out; just by en
 Improving habits, processes, and expectations around accessibility creates an environment that values accessibility and holistically integrates accessible design into every aspect of your products. There are many excellent resources and practices are always evolving; stay up to date by following accessibility leaders on LinkedIn, Twitter, and your regional professional networks.
 
 ## Conclusion
-And that wraps up my series on web accessibility! I really enjoyed this broad overview of accessibility principles and practices, and I’m excited to see where accessibility improvements will take us in the coming years. Thanks for reading, and happy coding!
+And that wraps up my series on web accessibility! I really enjoyed this broad overview of accessibility principles and practices, and I’m excited to see where accessibility improvements will take us in the coming years. Thanks for reading, and happy coding! 
