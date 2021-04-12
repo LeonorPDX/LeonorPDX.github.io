@@ -19,7 +19,7 @@ The rest of this post is a synthesis of Derek’s curriculum.
 ## Flexibility & Accessibility
 
 ### Flexible vs. Fixed-width Designs
-Over the history of web design, we first designed for 640x480 pixels in the browser display, then 800x600, and then 1024x768. At first we designed like for print, with fixed-width, pixel perfect designs. But even in the early days of the web, this wasn’t necessary: the web is flexible. Rather than confining things to pixel counts, when we could use percentages. Today making more flexible designs is the norm, but there was a lot of debate in the past—especially when designers were coming from a print background. 
+Over the history of web design, we first designed for 640x480 pixels in the browser display, then 800x600, and then 1024x768. At first we designed like for print, with fixed-width, pixel perfect designs. But even in the early days of the web, this wasn’t necessary: the web is flexible. Rather than confining things to pixel counts, we could use percentages. Today making more flexible designs is the norm, but there was a lot of debate in the past—especially when designers were coming from a print background. 
 
 It’s important to understand how designing with flexibility in mind is better for accessibility. Fixed width doesn’t respond well to text resizing, which is a common accessibility need. Flexible layouts respond better to different screen sizes; fixed widths designs result in horizontal scrolling. As we’re working on designs, resizing the screen frequently is very helpful for developers and designers; people don’t do this in the real world, of course, but when our design works as we resize then we ensure the web app will work at any window size. This leads us to responsive design.
 
